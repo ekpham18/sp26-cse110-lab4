@@ -1,0 +1,2 @@
+1. The bug is that the code interprets the addends as strings, not numbers, and concatenates them.
+2. My fix is adding the "+" unary operator in front of both num1 and num2, which converts them to numbers.
