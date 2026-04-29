@@ -25,7 +25,7 @@
 14E. false; true is interpreted as 1, not equal to 2  
 14F. true; Boolean(2) is true, and strict equality sees true as equal to true  
 15:  The == operator allows for variable types to be changed before comparison, while === checks for strict type and value equality.  
-17: The result is [2, 4, 6]. We call modifyArray, which runs a for-loop that pushes the "callback" function return value for each value of "array" to "newArr." For example, when i=0, it calculates doSomething(1), which returns 2. 2 is then pushed to newArr, which is essentially a doubled version of "array".
+17: The result is [2, 4, 6]. We call modifyArray, which runs a for-loop that pushes the "callback" function return value for each value of "array" to "newArr." For example, when i=0, it calculates doSomething(1), which returns 2. 2 is then pushed to newArr, which is essentially a doubled version of "array".  
 19: 1 4 3 2
 
 
